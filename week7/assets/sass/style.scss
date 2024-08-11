@@ -1,0 +1,28 @@
+$btn-bg: #AF9678;
+$white-text: #FFFFFF;
+$black-text: #000000;
+$brown-title: #937A60;
+$display-flex: flex;
+$font-title: 22px;
+$font-description: 16px;
+
+
+div {
+    display: $display-flex;
+
+    h1 {
+      font-size: 22px;
+      color: $btn-bg;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 18px;
+      color: $white-text;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      color: $btn-bg;
+      line-height: 1.5;
+    }
+  }
