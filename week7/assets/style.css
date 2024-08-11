@@ -69,3 +69,48 @@ footer section {
     height: 50%;
     background-color: aquamarine;
 }
+
+
+@media screen and (max-width: 480px) {
+    aside {
+        display: none;
+    }
+
+    main article {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main_second {
+        flex-direction: column;
+        height: 60%;
+        width: 100%;
+    }
+
+    .main_second section {
+        width: 100%;
+    }
+
+    .third_part {
+        width: 100%;
+    }
+
+    section {
+        height: 40px !important;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    footer section {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
